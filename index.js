@@ -12,14 +12,14 @@ function logWhisper(string){
     console.log("HELLO".toLowerCase());
 } 
 function sayHiToHeadphonedRoommate(string){
-    console.log("HELLO".toLowerCase())
-    if (string=true){
+    if (string===string.toLowerCase()){
+        
         return "I can\'t hear you!";
     }
-}
-function sayHiToHeadphonedRoommate(string){
-    console.log("hello".toUpperCase())
-    if (string=true){
-        return 
+    else if(string ===string.toUpperCase()){
+        return "YES INDEED!";
     }
-}
+    else if(string==="Let\'s have dinner together!"){
+        return "I would love to!";
+    }
+};
